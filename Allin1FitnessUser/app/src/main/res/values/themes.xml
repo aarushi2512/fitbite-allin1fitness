@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Allin1FitnessUser" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+    </style>
+
+
+    <style name="Theme.Allin1FitnessUser" parent="Base.Theme.Allin1FitnessUser" />
+</resources>

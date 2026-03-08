@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:titleTextColor="@color/white"
+    android:background="@color/colorAccent">
+<!--
+<ImageView
+        android:id="@+id/menu_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="start"
+        android:layout_marginHorizontal="25sp"
+        android:src="@drawable/ic_menu_white_24dp" /> -->
+
+    <ImageView
+        android:id="@+id/deleteicon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="25sp"
+        android:visibility="gone"
+        android:src="@drawable/baseline_delete_24" />
+
+</androidx.appcompat.widget.Toolbar>
